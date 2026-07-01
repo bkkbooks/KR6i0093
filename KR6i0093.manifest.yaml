@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6i0093/v1
+canonical_location: https://kanripo.org/bkk/KR6i0093/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 維摩經疏
+  identifiers:
+    alt_id:
+    - T85n2774
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2774.xml
+    old_id: T85n2774
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0093_000.yaml, hash: 'sha256:27a35c7c291bbca090afce9af4264268d1aeed7fec17943533f488b1af17929e'}
+  - {seq: 1, filename: KR6i0093_001.yaml, hash: 'sha256:f245e8e59af01fc23b485ef4308f6b1cb1584e83d2ebd1c91e7f14d52eb264cc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0093_001.markers.yaml, hash: 'sha256:8aaaf0a5ec7932873fcf79cfb5025e26a4a0cf6b16be0dc08d967899c21c83c5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0093_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2486
+  label: 維摩經疏
+  type: juan
+  level: 1
+hash: sha256:df23fe555a67955715c6155386de689cb9936acf2f694698da2ad010d5c2803c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
