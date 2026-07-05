@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0093_000.yaml, hash: 'sha256:27a35c7c291bbca090afce9af4264268d1aeed7fec17943533f488b1af17929e'}
-  - {seq: 1, filename: KR6i0093_001.yaml, hash: 'sha256:f245e8e59af01fc23b485ef4308f6b1cb1584e83d2ebd1c91e7f14d52eb264cc'}
+  - {seq: 1, filename: KR6i0093_001.yaml, hash: 'sha256:d6eb4f0b3c54abc0a087f859cb0cf1a85d1eca8c9010de479a326da0c7510100'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0093_001.markers.yaml, hash: 'sha256:8aaaf0a5ec7932873fcf79cfb5025e26a4a0cf6b16be0dc08d967899c21c83c5'}
+  - {seq: 0, role: markers, filename: assets/KR6i0093_000.markers.yaml, hash: 'sha256:e2be4222252a4311ef07e5c94e65378202734205ade997d90f8baa749406b54a'}
+  - {seq: 1, role: markers, filename: assets/KR6i0093_001.markers.yaml, hash: 'sha256:da613277cde371181d35a189f612efec17e77dbd23efe8717d045b89a9ac8885'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 維摩經疏
   type: juan
   level: 1
-hash: sha256:df23fe555a67955715c6155386de689cb9936acf2f694698da2ad010d5c2803c
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:d4871f814dd3a50fb3abd157a50c6c87f6a9a91795bcb67fb5055fd9b00b9da4
